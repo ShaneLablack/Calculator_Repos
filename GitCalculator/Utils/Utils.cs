@@ -13,7 +13,7 @@ namespace Calculator.Utils
 			string number = new DataTable().Compute(text, "").ToString();
 			double numberDouble = Convert.ToDouble(number);
 
-			return Convert.ToInt16(numberDouble);
+			return numberDouble;
 		}
 
 		// Number check 
@@ -92,7 +92,7 @@ namespace Calculator.Utils
 
 			try
 			{
-				primaryDisplay.Text = executeExpression(primaryDisplay.Text + secondaryDisplay.Text).ToString();  //
+				primaryDisplay.Text = executeExpression(secondaryDisplay.Text + primaryDisplay.Text).ToString(); //
 
 				if (primaryDisplay.Text.Length > 6)
 					primaryDisplay.FontSize = 48;
