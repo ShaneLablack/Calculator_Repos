@@ -8,7 +8,7 @@ namespace Calculator.Utils
 	public static class Utils
 	{
 		// execute expression method
-		private static int executeExpression(string text)
+		private static double executeExpression(string text)
 		{
 			string number = new DataTable().Compute(text, "").ToString();
 			double numberDouble = Convert.ToDouble(number);
