@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Calculator.navigationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+		<Button Content="Calculator" Margin="0,50,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
+		<Button Content="Function1" Margin="0,350,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
+        <Button Content="Function2" Margin="0,650,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
