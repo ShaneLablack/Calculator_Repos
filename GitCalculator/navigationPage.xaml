@@ -6,12 +6,20 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="800" Width="800">
 
-    <Grid>
-		<Button Content="Calculator" Margin="0,50,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
-		<Button Content="Function1" Margin="0,350,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
-        <Button Content="Function2" Margin="0,650,0,0" VerticalAlignment="Top" Height="290" Width="500" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
+    <Grid Margin="0,0,256,218">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Calculator" Margin="72,50,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="Function1" Content="Function1" Margin="72,230,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="Function1_Click" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="Function2" Content="Function2" Margin="72,405,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="Function2_Click" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
     </Grid>
 </Page>

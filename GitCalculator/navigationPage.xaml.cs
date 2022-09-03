@@ -26,5 +26,18 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage),null);
+		}
+		private void Function1_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(Function1), null);
+		}
+		private void Function2_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage), null);
+		}
 	}
 }
