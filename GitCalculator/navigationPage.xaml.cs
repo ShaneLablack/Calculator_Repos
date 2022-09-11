@@ -37,7 +37,7 @@ namespace Calculator
 		}
 		private void Function2_Click(object sender, RoutedEventArgs e)
 		{
-			this.Frame.Navigate(typeof(MainPage), null);
+			this.Frame.Navigate(typeof(currencyConversion), null);
 		}
 	}
 }

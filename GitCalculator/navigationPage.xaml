@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
         <Button Content="Calculator" Margin="72,50,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
         <Button x:Name="Function1" Content="Function1" Margin="72,230,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="Function1_Click" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-        <Button x:Name="Function2" Content="Function2" Margin="72,405,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="Function2_Click" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="Function2" Content="Currency Converter" Margin="72,405,0,0" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="Function2_Click" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
     </Grid>
 </Page>
