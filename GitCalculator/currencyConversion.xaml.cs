@@ -19,7 +19,7 @@ using Windows.UI.Xaml.Navigation;
 namespace Calculator
 {
 	/// <summary>
-	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// A Currency Conversion calculator.
 	/// </summary>
 	public sealed partial class currencyConversion : Page
 	{
