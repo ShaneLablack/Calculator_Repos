@@ -119,8 +119,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="mortgage_Calculator.xaml.cs">
       <DependentUpon>mortgage_Calculator.xaml</DependentUpon>
+=======
+    <Compile Include="currencyConversion.xaml.cs">
+      <DependentUpon>currencyConversion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Function1.xaml.cs">
+      <DependentUpon>Function1.xaml</DependentUpon>
+>>>>>>> f8a5fc1b48f27cb4d50923c6383d54fc78bcd723
     </Compile>
     <Compile Include="navigationPage.xaml.cs">
       <DependentUpon>navigationPage.xaml</DependentUpon>
@@ -162,7 +170,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="mortgage_Calculator.xaml">
+=======
+    <Page Include="currencyConversion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Function1.xaml">
+>>>>>>> f8a5fc1b48f27cb4d50923c6383d54fc78bcd723
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
