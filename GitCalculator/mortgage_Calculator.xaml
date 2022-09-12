@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Calculator.mortgage_Calculator"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Calculate" Margin="300,450,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,150,0,0" TextWrapping="Wrap" Text="Principal borrow$:" VerticalAlignment="Top"/>
+        <TextBox x:Name="PrincipalBorrowBox" HorizontalAlignment="Left" Margin="300,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="136"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,250,0,0" TextWrapping="Wrap" Text="and Months" VerticalAlignment="Top"/>
+        <TextBox x:Name="YearsBox" HorizontalAlignment="Left" Margin="300,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90" />
+        <TextBox x:Name="MonthsBox" HorizontalAlignment="Left" Margin="300,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,200,0,0" TextWrapping="Wrap" Text="Years" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,300,0,0" TextWrapping="Wrap" Text="Yearly Interest Rate" VerticalAlignment="Top"/>
+        <TextBox x:Name="YearlyInterestRateBox" HorizontalAlignment="Left" Margin="300,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,400,0,0" TextWrapping="Wrap" Text="Monthly Repayment $" VerticalAlignment="Top"/>
+        <TextBox x:Name="MonthlyRepaymentBox" HorizontalAlignment="Left" Margin="300,400,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="MonthlyInterestRateBox" HorizontalAlignment="Left" Margin="300,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBlock HorizontalAlignment="Left" Margin="100,350,0,0" TextWrapping="Wrap" Text="Monthly Interest Rate" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,50,0,0" TextWrapping="Wrap" Text="Mortage Calculator" VerticalAlignment="Top" FontSize="48"/>
+
+    </Grid>
+</Page>

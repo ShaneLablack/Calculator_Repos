@@ -33,7 +33,7 @@ namespace Calculator
 		}
 		private void Function1_Click(object sender, RoutedEventArgs e)
 		{
-			this.Frame.Navigate(typeof(Function1), null);
+			this.Frame.Navigate(typeof(mortgage_Calculator), null);
 		}
 		private void Function2_Click(object sender, RoutedEventArgs e)
 		{

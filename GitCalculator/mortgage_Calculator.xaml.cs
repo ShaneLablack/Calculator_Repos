@@ -20,11 +20,29 @@ namespace Calculator
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class Function1 : Page
+	public sealed partial class mortgage_Calculator : Page
 	{
-		public Function1()
+		public mortgage_Calculator()
 		{
 			this.InitializeComponent();
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			double P = double.Parse(PrincipalBorrowBox.Text);
+			double M;
+			double y_rate = double.Parse(YearlyInterestRateBox.Text);
+			double n;
+			double Years = double.Parse(YearsBox.Text);
+			double Months = double.Parse(MonthsBox.Text);
+			double i = (y_rate/100) / 12;
+			MonthlyRepaymentBox.Text = i.ToString();
+			n = (Years/12) + Months;
+			M = P * (i * Math.Pow((1 + i), n))/ Math.Pow((1 + i), n) - 1;
+
+			MonthlyInterestRateBox.Text = i.ToString();
+			MonthlyRepaymentBox.Text = M.ToString();
+
 		}
 	}
 }
