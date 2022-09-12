@@ -119,8 +119,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Function1.xaml.cs">
-      <DependentUpon>Function1.xaml</DependentUpon>
+    <Compile Include="mortgage_Calculator.xaml.cs">
+      <DependentUpon>mortgage_Calculator.xaml</DependentUpon>
     </Compile>
     <Compile Include="navigationPage.xaml.cs">
       <DependentUpon>navigationPage.xaml</DependentUpon>
@@ -162,7 +162,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Function1.xaml">
+    <Page Include="mortgage_Calculator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
