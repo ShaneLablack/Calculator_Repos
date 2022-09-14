@@ -122,6 +122,9 @@
     <Compile Include="currencyConversion.xaml.cs">
       <DependentUpon>currencyConversion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="mortgage_Calculator.xaml.cs">
+      <DependentUpon>mortgage_Calculator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="navigationPage.xaml.cs">
       <DependentUpon>navigationPage.xaml</DependentUpon>
     </Compile>
@@ -165,6 +168,10 @@
     <Page Include="currencyConversion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mortgage_Calculator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="navigationPage.xaml">
       <SubType>Designer</SubType>
