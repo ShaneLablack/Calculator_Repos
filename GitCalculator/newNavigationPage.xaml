@@ -23,8 +23,8 @@
 		<StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" HorizontalAlignment="Center" >
 			<TextBlock x:Name="headerTextBlock" Text="Universal Calulator" FontSize="50" TextAlignment="Center" Margin="20"/>
 			<Button x:Name="calculatorButton" Content="Calculator" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="calculatorButton_Click" />
-			<Button x:Name="function1Button" Content="Mortgage" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" />
-			<Button x:Name="function2Button" Content="Currency" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" />
+			<Button x:Name="function1Button" Content="Mortgage" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="function1Button_Click" />
+			<Button x:Name="function2Button" Content="Currency" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="function2Button_Click" />
 		</StackPanel>
 	</Grid>
 
