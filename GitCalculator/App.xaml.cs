@@ -30,7 +30,7 @@ namespace Calculator
 			if (e.PrelaunchActivated == false)
 			{
 				if (rootFrame.Content == null)
-					rootFrame.Navigate(typeof(navigationPage), e.Arguments);
+					rootFrame.Navigate(typeof(newNavigationPage), e.Arguments);
 
 				Window.Current.Activate();
 			}
