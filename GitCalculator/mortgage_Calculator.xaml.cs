@@ -44,5 +44,10 @@ namespace Calculator
 			MonthlyRepaymentBox.Text = M.ToString();
 
 		}
+
+		private void back_Button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(newNavigationPage), null);
+		}
 	}
 }
