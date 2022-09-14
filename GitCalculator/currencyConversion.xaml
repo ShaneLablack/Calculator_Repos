@@ -47,7 +47,7 @@
 		<StackPanel x:Name="buttonStackPanel" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Center">
 			<TextBlock x:Name="resultTextBlock" Width="1000" Height="200" />
 			<Button x:Name="calcButton" Content="Currency Conversion" Height="40" HorizontalAlignment="Center" Margin="20" Width="400" Click="calcButton_Click"></Button>
-			<Button x:Name="exitButton" Content="Exit" Height="40" HorizontalAlignment="Center" Margin="20" Width="400"></Button>
+			<Button x:Name="exitButton" Content="Exit" Height="40" HorizontalAlignment="Center" Margin="20" Width="400" Click="exitButton_Click"></Button>
         </StackPanel>
 
 

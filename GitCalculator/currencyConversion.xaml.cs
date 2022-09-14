@@ -24,6 +24,12 @@ namespace Calculator
 	public sealed partial class currencyConversion : Page
 	{
 		const double USD_EUR = 0.85189982, USD_GBP = 0.72872436, USD_INR = 74.257327, EUR_USD = 1.1739732, EUR_GBP = 0.8556672, EUR_INR = 87.00755, GPB_USD = 1.371907, GPB_EUR = 1.1686692, GPB_INR = 101.68635, INR_USD = 0.011492628, INR_EUR = 0.013492774, INR_GBP = 0.0098339397;
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(newNavigationPage), null);
+		}
+
 		double value, conversion;
 		string selection1, selection2;
 		private async void calcButton_Click(object sender, RoutedEventArgs e)
