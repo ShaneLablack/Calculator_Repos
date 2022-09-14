@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Calculator.newNavigationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid Margin="50" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1*"/>
+			<RowDefinition/>
+			<RowDefinition Height="1*"/>
+			<RowDefinition/>
+			<RowDefinition Height="1*"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="1*"/>
+		</Grid.ColumnDefinitions>
+		<StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" HorizontalAlignment="Center" >
+			<TextBlock x:Name="headerTextBlock" Text="Universal Calulator" FontSize="50" TextAlignment="Center" Margin="20"/>
+			<Button x:Name="calculatorButton" Content="Calculator" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" Click="calculatorButton_Click" />
+			<Button x:Name="function1Button" Content="Mortgage" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" />
+			<Button x:Name="function2Button" Content="Currency" Margin="30" VerticalAlignment="Top" Height="150" Width="400" FontSize="40" FontWeight="Bold" />
+		</StackPanel>
+	</Grid>
+
+	
+</Page>

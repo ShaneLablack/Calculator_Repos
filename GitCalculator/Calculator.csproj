@@ -128,6 +128,9 @@
     <Compile Include="navigationPage.xaml.cs">
       <DependentUpon>navigationPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="newNavigationPage.xaml.cs">
+      <DependentUpon>newNavigationPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utils\Utils.cs" />
     <None Include=".editorconfig" />
     <Compile Include="Controls\NumberButtonControl.xaml.cs">
@@ -174,6 +177,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="navigationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="newNavigationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
